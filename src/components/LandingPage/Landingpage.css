@@ -1,0 +1,20 @@
+.textstructure{
+    padding-left: 40px;
+    margin-top: 17vh;
+}
+
+.text{
+    font-size: 60px;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 5vw;
+}
+.bottom{
+    border-top: 1px solid rgb(167, 167, 167);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
