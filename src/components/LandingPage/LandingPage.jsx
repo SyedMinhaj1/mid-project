@@ -10,6 +10,7 @@ function LandingPage() {
             <h1>We Create</h1>
           </div>
           <div className='text text2'>
+          <div className="lpbox"></div>
             <h1>Eye Opening</h1>
           </div>
           <div className='text text3'>
@@ -19,8 +20,10 @@ function LandingPage() {
       </div>
       <div className='bottom'>
         <p>For public and private companies</p>
-        <p>
-        From the first pitch to IPO</p>
+        <p>From the first pitch to IPO</p>
+        <div className="start">
+          <button className='stbtn' type='submit' >Start the Project</button>
+        </div>
       </div>
     </div>
   )
