@@ -4,19 +4,20 @@
     position: relative;
     background: #004D43;
     border-top-left-radius: 15px;
-    overflow: hidden;
-}
-
-.mtext{
+  }
+  
+  .mtext{
     display: flex;
     white-space: nowrap;
     gap: 3vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+    overflow: hidden;
     
 }
 .scroll{
     font-size: 17vw;
+    margin-bottom: 1.5vw;
     font-family: fantasy;
     text-transform: uppercase;
     animation: slide infinite 8s linear;
