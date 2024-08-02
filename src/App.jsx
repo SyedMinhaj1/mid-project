@@ -1,8 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import LandingPage from './components/LandingPage/LandingPage'
-import Marquee from './components/marquee/marquee'
-import About from './components/About/About'
+import Navbar from './components/Navbar/Navbar.jsx'
+import LandingPage from './components/LandingPage/LandingPage.jsx'
+import Marquee from './components/marquee/marquee.jsx'
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <Navbar />
       <LandingPage />
       <Marquee />
-      <About />
     </div>
   )
 }
