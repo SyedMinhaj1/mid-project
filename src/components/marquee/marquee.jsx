@@ -2,7 +2,7 @@
 import React from 'react'
 import "./Marquee.css";
 
-const marquee = () => {
+const Marquee = () => {
   return (
     <div className='marq '>
       <div className='mtext ' >
@@ -13,4 +13,4 @@ const marquee = () => {
   )
 }
 
-export default marquee
+export default Marquee

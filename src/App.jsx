@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import LandingPage from './components/LandingPage/LandingPage'
-import Marquee from './components/Marquee/Marquee'
+import Marquee from './components/marquee/marquee'
 
 function App() {
   return (
