@@ -1,0 +1,35 @@
+.marq{
+    width: 100%;
+    padding: 8vw 0px;
+    position: relative;
+    background: #004D43;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.mtext{
+    display: flex;
+    white-space: nowrap;
+    gap: 3vw;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+.mtext h1{
+    font-size: 17vw;
+    font-family: fantasy;
+    text-transform: uppercase;
+    animation: slide infinite 5s linear;
+
+    
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0%);
+      
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

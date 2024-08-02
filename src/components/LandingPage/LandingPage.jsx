@@ -3,7 +3,7 @@ import "./Landingpage.css";
 
 function LandingPage() {
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div className='lpmain'>
       <div className='textstructure '>
         <div className='masker'>
           <div className='text text1'>

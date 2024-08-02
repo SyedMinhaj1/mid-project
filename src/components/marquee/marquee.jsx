@@ -4,8 +4,11 @@ import "./Marquee.css";
 
 const marquee = () => {
   return (
-    <div className='w-full h-[50vh] bg-green-900 '>
-      <h1>this a arquee</h1>
+    <div className='marq '>
+      <div className='mtext ' >
+        <h1 className='leading-none'>We are ochi</h1>
+        <h1 className='leading-none'>We are ochi</h1>
+      </div>
     </div>
   )
 }
