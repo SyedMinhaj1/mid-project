@@ -21,7 +21,7 @@ function Cards_1() {
               />
             </div>
           </div>
-          <div className="cardcontainer relative w-1/2 h-[75vh]">
+          <div className="cardcontainer relativejhli w-1/2 h-[75vh]">
         
             <div className="card w-full h-full rounded-xl overflow-hidden bg-zinc-800">
             <h1 className="absolute text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] text-8xl">VISE</h1>
