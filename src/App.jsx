@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar.jsx'
 import LandingPage from './components/LandingPage/LandingPage.jsx'
 import Marquee from './components/marquee/marquee.jsx'
+import Cards_1 from './components/Cards1/Cards_1.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <Marquee />
+      <Cards_1/>
     </div>
   )
 }
