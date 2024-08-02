@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Marquee.css";
+import "./marquee.css";
 
 const Marquee = () => {
   return (
