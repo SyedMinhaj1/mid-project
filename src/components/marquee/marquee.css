@@ -1,6 +1,6 @@
 .marq{
     width: 100%;
-    padding: 8vw 0px;
+    padding: 5vw 0px;
     position: relative;
     background: #004D43;
     border-top-left-radius: 15px;
@@ -15,11 +15,11 @@
     border-bottom: 1px solid white;
     
 }
-.mtext h1{
+.scroll{
     font-size: 17vw;
     font-family: fantasy;
     text-transform: uppercase;
-    animation: slide infinite 5s linear;
+    animation: slide infinite 8s linear;
 
     
 }
