@@ -1,4 +1,119 @@
-.abmain{
+.abmain {
     width: 100%;
+    background: #CDEA68;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #000;
+}
+
+.abouttext {
+    padding: 6vw 2vw;
+    color: black;
+    font-size: 4vw;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4vw;
+    letter-spacing: -0.12vw;
+}
+
+.expect {
+    width: 100%;
+    margin-top: 4vw;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 30vw;
+    font-family: sans-serif;
+    padding: 1.5vw;
+
+
+}
+
+.eleft {
+    width: 50%;
+    font-weight: 100;
+}
+
+.eright {
+    width:  24%;
+    font-weight: 100;
+    font-size: 1.2vw;
+    line-height: 2vw;
     
 }
+
+
+.esocial {
+
+    list-style: none;
+    width: 26%;
+    margin-left: 1vw;
+    padding-top: 8vw;
+    padding-left: 16vw;
+    font-size: 1.3vw;
+    li {
+        text-decoration: underline;
+
+    }
+}
+
+.approach{
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 2vw;
+    display: flex;
+}
+
+.apleft{
+    width: 50%;
+    h1{
+        font-size: 5vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+
+.apbtn{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 15px;
+    padding: 1.8vw 2.5vw; 
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s linear;
+    
+}
+
+.apbtn:hover{
+    font-size: 1.3vw;
+    .btndot{
+        width: 15px;
+        height: 13px;
+        border-radius: 2px;
+
+    }
+}
+
+.btndot{
+    width: 10px;
+    height: 10px;
+    margin-left: 4.5vw;
+    border-radius: 50%;
+    background: white;
+}
+
+.apright{
+    width: 50%;
+    img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 1.2vw;
+    }
+}
+
