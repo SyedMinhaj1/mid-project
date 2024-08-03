@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 function Cards_1() {
@@ -15,11 +16,10 @@ function Cards_1() {
               <h1 className="absolute text-[#CDEA68] left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] text-8xl">
                 FYED
                 <h1 className="absolute text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] text-8xl">
-                  VISE
-                  {"FYED".split("").map((item, index) => (
-                    <span>{item}</span>
-                  ))}
-                </h1>
+  {"FYED".split("").map((item, index) => (
+    <span key={index} className="inline-block">{item}</span>
+  ))}
+</h1>
               </h1>
               <img
                 className="w-full h-full bg-cover"
@@ -30,12 +30,11 @@ function Cards_1() {
           </div>
           <div className="cardcontainer relativejhli w-1/2 h-[75vh]">
             <div className="card w-full h-full rounded-xl overflow-hidden bg-zinc-800">
-              <h1 className="absolute text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] text-8xl">
-                VISE
-                {"VISE".split("").map((item, index) => (
-                  <span>{item}</span>
-                ))}
-              </h1>
+            <h1 className="absolute text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] text-8xl">
+  {"VISE".split("").map((item, index) => (
+    <span key={index} className="inline-block">{item}</span>
+  ))}
+</h1>
               <img
                 className="w-full h-full bg-cover"
                 src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"
