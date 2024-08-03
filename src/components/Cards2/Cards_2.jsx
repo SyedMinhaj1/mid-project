@@ -5,7 +5,7 @@ function Cards_1() {
     <div className="w-full py-20">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-20">
         <h1 className='text-8xl font-["Neue_Montreal"] tracking-tight'>
-          Card-1
+          Card-2
         </h1>
       </div>
       <div className="px-20">
