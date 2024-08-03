@@ -4,6 +4,7 @@
     position: relative;
     background: #004D43;
     border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   
   .mtext{
@@ -17,7 +18,6 @@
 }
 .scroll{
     font-size: 17vw;
-    margin-bottom: 1.5vw;
     font-family: fantasy;
     text-transform: uppercase;
     animation: slide infinite 8s linear;
