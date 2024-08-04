@@ -8,15 +8,69 @@
     position: fixed;
     z-index: 25;
 }
-
-.logo {
+  
+  .logo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-}
+  }
+  
+  .links {
+    display: flex;
+    gap: 20px;
+  }
 
-.navbtn {
+  
+  .navbtn {
     font-weight: lighter;
     text-transform: capitalize;
     font-size: 1.125rem;
     line-height: 1.75rem;
-}
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease-in-out ;
+  }
+
+  .navbtn:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  /* Responsive */
+  @media (max-width: 800px) {
+    .links {
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+      background-color: rgba(0, 0, 0, 0.91); 
+      position: absolute;
+      top: 60px; 
+      right: 30px; 
+      width: calc(100% - 60px); 
+      padding: 10px;
+    }
+
+    
+    
+    .links.active {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+  }
+  
