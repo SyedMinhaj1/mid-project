@@ -117,3 +117,63 @@
     }
 }
 
+@media (max-width: 800px) {
+    .expect {
+        margin-top: 4vw;
+        height: fit-content;
+        padding: 1.5vw 4vw;
+        flex-direction: column;
+
+    
+    
+    }
+    
+    .eleft {
+        width: 50%;
+        font-weight: 100;
+        margin-bottom: 2vw;
+    }
+    
+    .eright {
+        width:  45%;
+        font-weight: 100;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        
+    }
+    
+    
+    .esocial {
+    
+        list-style: none;
+        width: 26%;
+        margin-left: 0vw;
+        padding-top: 8vw;
+        padding-left: 0vw;
+        font-size: 2.5vw;
+        li {
+            text-decoration: underline;
+    
+        }
+    }
+
+    .approach{
+        flex-direction: column;
+    }
+
+    .apbtn{
+        padding: 2vw 4.5vw;
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    .apright{
+        width: 70%;
+        img{
+            width: 100%;
+            height: 40vh;
+            border-radius: 1.2vw;
+        }
+    }
+
+}

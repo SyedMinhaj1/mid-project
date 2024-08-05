@@ -5,6 +5,7 @@ import Marquee from './components/marquee/marquee.jsx'
 import Cards_1 from './components/Cards1/Cards_1.jsx'
 import Cards_2 from './components/Cards2/Cards_2.jsx' 
 import About from './components/About/About.jsx'
+import Playful from './components/Playful/Playful.jsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <LandingPage />
       <Marquee />
       <About />
+      <Playful />
       <Cards_1/>
       <Cards_2 />
     </div>
